@@ -3,7 +3,7 @@ pragma solidity ^0.8.7;
 
 import "@thirdweb-dev/contracts/base/ERC20Base.sol";
 
-contract DEX is ERC20Base {
+contract BLOCKBABIES-DEX is ERC20Base {
     address public token;
 
     constructor (address _token) ERC20Base(name(), symbol()) {
